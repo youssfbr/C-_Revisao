@@ -10,9 +10,8 @@ namespace RevisaoC
             string x = Console.ReadLine();
             string y = Console.ReadLine();
             string z = Console.ReadLine();
-            string s = Console.ReadLine();
-
-            string[] vet = s.Split(' ');
+            
+            string[] vet = Console.ReadLine().Split(' ');
             string a = vet[0];
             string b = vet[1];
             string c = vet[2];
